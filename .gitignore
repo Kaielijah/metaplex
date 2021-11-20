@@ -6,6 +6,8 @@ rust/test/nft-candy-machine.js
 dist/
 lib/
 deploy/
+venv/
+js/packages/cli/assets/
 docs/lockup-ui/
 .DS_Store
 *~
@@ -19,7 +21,6 @@ yarn-error.log*
 !js/packages/metaplex/src/utils/globals.css
 js/.eslintcache
 target
-.env
 .vscode
 bin
 config.json
@@ -30,6 +31,6 @@ hfuzz_workspace
 **/*.so
 **/.DS_Store
 .cache
-js/packages/web/.env
+
 traits
 traits-configuration.json
